@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: aliceblue;
+  }
+
+  .container {
+    width: 15rem;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #0e0e0e;
+    padding: 1.5rem;
+}
+  
+input{
+    font-size: 1.9rem;
+    text-align: right;
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #0e0e0e;
+}
+
+  .btns{
+    width: 15rem;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:  repeat(4, 1fr);
+  }
+  
+  button{
+    color: rgb(231, 227, 227);
+    height: 3rem;
+    width: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:hover{
+    border-radius: 100%;
+    background-color: rgba(139, 137, 135, 0.363);
+  }
+
+  .special{
+    color:rgb(226, 113, 21) ;
+  }
+
+  .special:nth-child(20){
+    color: white;
+    border-radius: 100%;
+    background-color: rgb(226, 113, 21);
+  }
+
+  .line{
+    margin-top: 10px;
+    opacity: 30%;
+  }
